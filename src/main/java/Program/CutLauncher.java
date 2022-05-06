@@ -38,7 +38,7 @@ public class CutLauncher {
             parser.parseArgument(args);
         } catch (CmdLineException e){
             System.err.println(e.getMessage());
-            System.err.println("//Error//");
+            System.err.println("cut [-c|-w] [-o ofile] [-r range] [file]");
             parser.printUsage(System.err);
         }
 
