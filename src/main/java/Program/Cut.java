@@ -108,7 +108,6 @@ public class Cut {
     }
 
     public void getSlice() throws IOException {
-        //boolean result = false;
         String[] text;
         int rangeLegth;
         int count = 0;
@@ -179,7 +178,6 @@ public class Cut {
         fw.close();
         fr.close();
 
-        //return result;
     }
 
     private void contentsOfDirectory(){

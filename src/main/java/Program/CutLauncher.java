@@ -42,7 +42,6 @@ public class CutLauncher {
             parser.printUsage(System.err);
         }
 
-        //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader reader;
         boolean flagOutput = false;
         boolean checkFlags = (!flagC) && (!flagW);
@@ -87,7 +86,6 @@ public class CutLauncher {
 
         cutter.getSlice();
 
-        System.out.println("Флаг вывода: " + flagOutput);
 
     }
 }
