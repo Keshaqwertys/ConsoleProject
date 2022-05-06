@@ -55,11 +55,10 @@ public class Cut {
 
         if (!dividedRange[0].equals("")){
             startRange = Integer.parseInt(dividedRange[0]);
-        } else startRange = 0; // -1 = start with begin or finish at the end
+        } else startRange = 0;
         if (!dividedRange[1].equals("")){
             endRange = Integer.parseInt(dividedRange[1]);
         } else endRange = -1; // -1 = start with begin or finish at the end
-        //System.out.println("Начало: " + startRange + "; " + "Конец: " + endRange);
 
         outputFile = searchFile(outputNameFile, false);
         inputFile = searchFile(inputNameFile, true);

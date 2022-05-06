@@ -52,22 +52,7 @@ public class CutLauncher {
             System.out.print("Введите название входного файла: ");
             inputNameFile = reader.readLine();
         }
-         /*
-        if (outputNameFile == null){
-            reader = new BufferedReader(new InputStreamReader(System.in));
-            System.out.print("Введите название выходного файла: ");
-            outputNameFile = reader.readLine();
 
-            //File dyrectory = new File("C:\\Users\\Иннокентий\\IdeaProjects\\ConsoleProject\\src\\main\\resources");
-            //File result = new File(dyrectory.getPath() + "\\output" + ".txt");
-            //result.createNewFile();
-            //if (result.createNewFile()){
-            //    System.out.print("Файл создан.");
-            //} else {
-            //    System.out.print("Файл уже существует");
-            //}
-        }
-         */
         if (outputNameFile == null){
             outputNameFile = "defaultOutputFile";
             flagOutput = true;
